@@ -31,7 +31,7 @@
 }
 
 .intro{
-  color:black;
+  color:white;
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -44,7 +44,7 @@
 
 
 .outro{
-  color:black;
+  color:white;
   font-style: italic;
   font-family:'Lucida Sans';
   font-size: 20px;
@@ -94,6 +94,7 @@
 }
 
 .chorus{
+  color: white;
   display: flex;
   justify-content: center;
   font-family:'Lucida Sans';
@@ -126,7 +127,6 @@ h1{
   
 }
 
-
 .One_image{
   clip-path: polygon(100% 0, 70% 100%, 0 100%, 0 0);
   position:relative;
@@ -152,6 +152,7 @@ h1{
   top: 15%; 
   left: 50%;
   transform: translateX(-50%);
+  z-index: -1;
 }
 
 
@@ -213,7 +214,7 @@ h1{
   /* Tablet Styles */
   @media only screen and (min-width: 401px) and (max-width: 960px) {
     body {
-        background-color: silver; /* Red */
+        background-color:#353b48;
       }
 
       .menu-drop{
@@ -271,7 +272,7 @@ h1{
   /* Desktop Styles */
   @media only screen and (min-width: 961px) {
     body {
-        background-color:white; /* Red */
+        background-color:#2f3640;
       }
 
       .menu-drop a{
